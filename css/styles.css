@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+ 
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: black;
+}
+
+
+a:hover {
+  opacity: 0.8;
+}
+img{
+  vertical-align: bottom;
+  
+}
+h2{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+header{
+  text-align: center;
+}
+.logo{
+width: 280px;
+padding: 50px 0;
+/* 中央にこない */
+}
+
+.main{
+  width: 100%;
+}
+
+.link{
+ padding: 40px  0;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 80px;
+}
+
+.link ul li{
+  font-size: 16px;
+  
+}
+
+
+.concept{
+  display: flex;
+ justify-content: center;
+ gap: 45px;}
+.desc{
+padding: 100px 0;
+
+}
+.concept-p{
+  padding-bottom: 2px;
+}
+h2{
+  margin: 0;
+  color:skyblue;
+}
+
+.blog{
+  text-align: center;
+}
+
+.blog h2{
+  padding-top: 100px;
+}
+
+.blog-p{
+  
+  padding-top: 2px;
+}
+
+.list{
+  display: flex;
+
+  padding: 50px;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+
+.btn{
+  border: 2px solid skyblue;
+color: skyblue;
+font-size: 18px;
+  padding: 10px 30px;
+  
+}
+
+footer {
+ 
+margin-top: 80px;
+  padding: 100px 0 30px;
+  background-color: #000;
+}
+
+footer img{
+  display: block;
+margin: 0 auto;
+}
